@@ -1,5 +1,5 @@
 
-<!---------Smooth scroll js -------->
+//Smooth scroll js 
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -15,7 +15,7 @@ $(function() {
   });
 });
 
-<!-------this calls collapse on the nav bar toggle element when clicked --------->
+//this calls collapse on the nav bar toggle element when clicked 
 
 $(document).ready(function () {
 $(".navbar-nav li a").click(function(event) {
